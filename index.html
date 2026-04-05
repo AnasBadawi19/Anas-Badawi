@@ -1,18 +1,86 @@
-<!DOCTYPE html>
-<html>
-<header>
-<title> ANASBADAWI </title>
-</header>
-<body>
-<h1> Anas Mohammad Ali Badawi </h1>
-<p> My name is Anas Badawi 
-Major: Computer Science
-👨‍💻 Anas | Computer Science Major at AUST Lebanon
-Exploring the logic behind the code and the beauty within the algorithms. Driven by curiosity and precision, I’m a Computer Science student at the American University of Science and Technology (AUST) in Lebanon. From dissecting data structures to mastering matrix operations, I thrive on solving complex problems and building elegant solutions. Whether it’s developing software, diving into AI, or exploring the theoretical foundations of computation, I’m here to turn ideas into impact.</p>
+<!DOCTYPE html> <!-- Tells the browser this is an HTML5 document -->
+<html> <!-- Opens the root HTML element, everything lives inside this -->
+<head> <!-- Opens the head section, contains metadata (invisible to users) -->
+    <link rel="icon" href="images/logo.jpg"> <!-- Sets the small icon shown on the browser tab (favicon) -->
+    <title>ANAS BADAWI</title> <!-- Sets the text shown on the browser tab -->
 
-<p>Socials:</p>
-<p><a href = "https://www.instagram.com/anas._.badawi/"> Instagram </a></p>
-<p><a href = "https://www.facebook.com/anas.badawi.3990"> facebook </a></p>
 
-<img src="https://scontent.fbey14-1.fna.fbcdn.net/v/t39.30808-1/362257199_663074139049245_8285672625599005927_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=108&ccb=1-7&_nc_sid=e99d92&_nc_ohc=jI2v2kmuWHEQ7kNvwGaQ1B4&_nc_oc=Admx_lnUJtRVEavYFHaM-gcch9ZFJD0SOk5GzYqWolykj9nkJ82h8akeRLYQvBJKWgw&_nc_zt=24&_nc_ht=scontent.fbey14-1.fna&_nc_gid=4GoMNYZTGVUjd7dpoHpZ9A&oh=00_AfYbp6P0Ao00Z7e543zz__0TNi5FC9i0gyP8zqdxhoP7VQ&oe=68D9985D" alt="https://www.facebook.com/anas.badawi.3990" width="200" height="142">
-</html>
+<style> <!-- Opens the CSS styling block -->
+    body {
+        background-color: black; <!-- Makes the page background black -->
+        font-size: 300%; <!-- Triples the default text size for everything on the page -->
+    }
+    h1, h2, h3 { color: aqua; } <!-- Makes all headings aqua colored -->
+    p {
+        color: white; <!-- Makes paragraph text white -->
+        border: 2px solid powderblue; <!-- Adds a powderblue border around every paragraph -->
+        padding: 30px; <!-- Adds space INSIDE the border (between text and border) -->
+        margin: 50px; <!-- Adds space OUTSIDE the border (between border and other elements) -->
+    }
+
+ 
+    table {
+        border-collapse: separate; <!-- Allows gaps between cells to work -->
+        border-spacing: 20px; <!-- Sets the gap size between cells -->
+        border: 1px solid white; <!-- Adds a white outer border around the whole table -->
+    }
+
+    table, th, td {
+        color: white; <!-- Makes text white inside the table, header cells, and regular cells -->
+        border: 1px solid white; <!-- Adds white borders on the table, header cells, and regular cells -->
+    }
+
+    th, td {
+        padding: 15px; <!-- Adds breathing room inside each cell -->
+    }
+
+    table caption {
+        caption-side: top; <!-- Places the caption above the table -->
+        text-align: left; <!-- Aligns the caption text to the left -->
+        font-size: 80%; <!-- Makes the caption font slightly smaller than the rest -->
+        margin-bottom: 10px; <!-- Adds a gap below the caption -->
+    }
+</style> <!-- Closes the CSS styling block -->
+</head> <!-- Closes the head section -->
+<body> <!-- Opens the body section, everything the user actually sees -->
+    <h1>Welcome to my personal website, my name is Anas Badawi</h1> <!-- The biggest heading on the page -->
+
+    <h2>ABOUT ME</h2> <!-- A section heading, one size smaller than h1 -->
+    <p> <!-- Opens a paragraph, gets the white text + border style from CSS -->
+        Hello, I'm Anas Badawi, a Computer Science student with a strong interest in software development and system design.
+        I focus on building reliable, efficient, and well-structured applications while continuously expanding my technical skills. 
+        This website showcases my projects, experience, and ongoing learning in the field of computer science.
+    </p> <!-- Closes the paragraph -->
+
+    <h3>Socials</h3> <!-- A smaller sub-heading for the socials section -->
+    <p>Instagram</p> <!-- A paragraph used as a label, also gets the bordered box style -->
+    <a href="https://www.instagram.com/anas._.badawi/"> <!-- Opens a clickable link to your Instagram -->
+        <img src="images/insta.jpg" alt="instagram"> <!-- Displays Instagram image, alt text shows if image fails to load -->
+    </a> <!-- Closes the link -->
+
+    <p>LinkedIn</p> <!-- A paragraph used as a label for LinkedIn -->
+    <a href="https://www.linkedin.com/in/anas-badawi-9428332a2/"> <!-- Opens a clickable link to your LinkedIn -->
+        <img src="images/linkedin.jpg" alt="linkedin"> <!-- Displays LinkedIn image, alt text shows if image fails to load -->
+    </a> <!-- Closes the link -->
+
+    <p>Projects</p> <!-- A bordered label paragraph that says Projects -->
+    <table style="width: 100px;"> <!-- Opens the table, width is very narrow and likely a leftover mistake -->
+        <caption>Here are the projects that I've worked on so far:</caption> <!-- Small label shown above the table -->
+        <tr> <!-- Opens a table row -->
+            <th colspan="3">MY PROJECTS</th> <!-- Bold header cell that spans 3 columns, acts as a title row -->
+        </tr> <!-- Closes the row -->
+        <tr> <!-- Opens a table row -->
+            <th>Project 1</th> <!-- Bold header cell labeling the first project -->
+            <td></td> <!-- Empty data cell, meant to hold project details -->
+        </tr> <!-- Closes the row -->
+        <tr> <!-- Opens a table row -->
+            <th>Project 2</th> <!-- Bold header cell labeling the second project -->
+            <td></td> <!-- Empty data cell, meant to hold project details -->
+        </tr> <!-- Closes the row -->
+        <tr> <!-- Opens a table row -->
+            <th>Project 3</th> <!-- Bold header cell labeling the third project -->
+            <td></td> <!-- Empty data cell, meant to hold project details -->
+        </tr> <!-- Closes the row -->
+    </table> <!-- Closes the table -->
+</body> <!-- Closes the visible content section -->
+</html> <!-- Closes the entire document -->
